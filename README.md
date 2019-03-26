@@ -312,7 +312,7 @@ Ask students what was learned. Make sure the objectives have been met.
 The following homework assignment should be introduced before the end of class--make sure that students understand the goals of the exercise and have an opportunity to ask questions. The assignment should be due by the next class period--students should submit links to their completed assignments on GitHub to the instructional team using Slack.
 
 **99 Bottles of Beer**
-- Remember the [99 Bottles of Beer assignment](../03-conditionals-and-loops#conclusion)? For this assignment, you'll be creating a website that programatically displays the lyrics to that song.
+- Remember the [99 Bottles of Coke assignment](https://github.com/misk-jsd2/03-conditionals-and-loops#homework)? For this assignment, you'll be creating a website that programatically displays the lyrics to that song.
 - You'll need to create both an `.html` file and a `.js` file
 - In your HTML file, you'll want to have an unordered list (`<ul>`) that contains all of your lyrics
 - Each line of the song should appear inside of a list item (`<li>`) within that unordered list
