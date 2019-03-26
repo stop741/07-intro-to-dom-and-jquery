@@ -1,1 +1,0 @@
-console.log("script in class loaded")
