@@ -11,11 +11,29 @@ Making a favorites list: DOM manipulation
 */
 
 function addToList(list, newThing) {
+	var newThingLi = document.createElement('li');
+	var newThingText = document.createTextNode(newThing);
+	newThingLi.appendChild(newThingText);
+	list.appendChild(newThingLi);
+
 
 }
 
 window.onload = function() {
   // when someone clicks the button...
+    var button = document.getElementById('new-thing-button');
+    var thingList = document.getElementById('fav-list');
+    var newThingInput = document.getElementById('new-thing');
+    
+    button.onclick = function(event) {
+    // The preventDefault() method lets us disable the default action, allowing us to override with our on functionality.
+      event.preventDefault();
+      var newThing = newThingInput.value;
+      addToList(thingList, newThing);
+      newThingInput.value = "";
+    };
+
+  //document.getElementById("new-thing").value = "... ";
 
   // https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 };
